@@ -1,8 +1,12 @@
-# PDFRenderer
+# ``PDFRenderer``
 
-Render PDFs using SwiftUI.
+Render PDF documents using SwiftUI to file or memory.
 
-## Example
+## Overview
+
+`PDFRenderer` is a convenience package for creating PDF documents using SwiftUI.
+
+To create a PDF document, you start by creating a document and then declare the pages with view builders. Finally, you render the document either to file or in memory as a `Data` instance.
 
 ```swift
 let document = PDFDocument {
@@ -27,3 +31,20 @@ Task {
     let pdfInMemory = try await document.renderInMemory()
 }
 ```
+
+## Topics
+
+### Document and Contents
+
+- ``PDFDocument``
+- ``PDFPage``
+
+### Building Documents
+
+- ``PDFBuilder``
+- ``PDFPageSpecification``
+- ``PaperSize``
+
+### Errors
+
+- ``PDFDocumentError``
