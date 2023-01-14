@@ -1,7 +1,3 @@
-//
-//  Copyright © 2023 Apparata AB. All rights reserved.
-//
-
 import SwiftUI
 
 /// Represents a page in a PDF document.

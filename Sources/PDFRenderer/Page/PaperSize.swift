@@ -1,7 +1,3 @@
-//
-//  Copyright © 2023 Apparata AB. All rights reserved.
-//
-
 import Foundation
 import CoreGraphics
 
