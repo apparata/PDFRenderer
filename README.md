@@ -1,5 +1,7 @@
 # PDFRenderer
 
+[![License: Unlicense](https://img.shields.io/badge/License-Unlicense-blue.svg)](http://unlicense.org/)
+
 Render PDFs using SwiftUI.
 
 ## Example
